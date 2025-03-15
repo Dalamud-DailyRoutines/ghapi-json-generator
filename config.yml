@@ -4,35 +4,7 @@
 
 links:
   ######## Stellar ########
-  # Stellar 最近更新日志（10条记录）
-  - https://api.github.com/repos/xaoxuu/hexo-theme-stellar/releases?per_page=10
-  # Stellar 开发者
-  - https://api.github.com/repos/xaoxuu/hexo-theme-stellar/contributors?per_page=100&direction=asc
-  # Stellar 点赞的用户
-  - https://api.github.com/repos/xaoxuu/hexo-theme-stellar/stargazers?per_page=100&page=1
-  - https://api.github.com/repos/xaoxuu/hexo-theme-stellar/stargazers?per_page=100&page=2
-  - https://api.github.com/repos/xaoxuu/hexo-theme-stellar/stargazers?per_page=100&page=3
-  # Stellar Todo
-  - https://api.github.com/repos/xaoxuu/hexo-theme-stellar/issues?labels=todo
-  # Stellar 探索号
-  - https://api.github.com/repos/xaoxuu/hexo-theme-stellar/issues?state=all&labels=分享
-  
-  ######## Volantis ########
-  # Volantis 最近更新日志（10条记录）
-  - https://api.github.com/repos/volantis-x/hexo-theme-volantis/releases?per_page=10
-  # Volantis 开发者
-  - https://api.github.com/repos/volantis-x/hexo-theme-volantis/contributors?per_page=100&direction=asc
-  - https://api.github.com/repos/volantis-x/community/contributors?per_page=100&direction=asc
-  # Volantis Todo
-  - https://api.github.com/repos/volantis-x/hexo-theme-volantis/issues?labels=todo
-
-  ######## xaoxuu ########
-  - https://api.github.com/users/xaoxuu
-  # - https://api.github.com/users/xaoxuu/followers
-  # - https://api.github.com/users/xaoxuu/following
-  # 我的仓库列表
-  - https://api.github.com/users/xaoxuu/repos?per_page=100
-  # 我的博客热门文章
-  - https://api.github.com/repos/xaoxuu/blog-comments/issues?sort=comments
-  # 我近期动态（20条记录）
-  - https://api.github.com/repos/xaoxuu/blog-timeline/issues?per_page=20
+  # XIVLauncher
+  - https://api.github.com/repos/AtmoOmen/FFXIVQuickLauncher/releases?per_page=10
+  # Dalamud
+  - https://api.github.com/repos/AtmoOmen/Dalamud/releases/latest
