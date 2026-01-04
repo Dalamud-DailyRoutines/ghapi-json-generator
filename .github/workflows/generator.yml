@@ -1,14 +1,16 @@
 name: Generator
 
+permissions:
+  contents: write
+
 on:
-  workflow_dispatch:
+  workflow_dispatch:      # 手动触发
+  repository_dispatch:    # 其他仓库触发
   push:
     branches:
       - main
-  watch:
-    types: [started]
   schedule:
-    - cron: '*/5 * * * *'
+    - cron: '0 * * * *'   # 每小时触发 (第0分钟)
 
 jobs:
   build:
@@ -23,14 +25,12 @@ jobs:
           python-version: 3.x
 
       - name: Install requirements
-        run: |
-          pip install -r requirements.txt
+        run: pip install -r requirements.txt
 
       - name: Run Generator
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          python generator/v2.py
+        run: python generator/v2.py
 
       - name: Commit & Push
         uses: action-x/commit@v2.9
